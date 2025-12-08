@@ -281,10 +281,10 @@ spriteTypes = {
     frameAnimatedSpriteType = {
         name = "GFX_country_selection_bg"
         texturefile = "gfx/interface/country_selection_bganim.png"
-        noOfFrames = 3
+        noOfFrames = 2
         effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
         
-        animation_rate_fps = 30
+        animation_rate_fps = 3
         looping = yes
         play_on_show = yes
         pause_on_loop = 0
