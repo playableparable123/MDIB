@@ -1,8 +1,8 @@
 
 bitmapfonts = {
 	bitmapfont = {
-		name = "MS Sans Serif"
-		path = "gfx/fonts/MS Sans Serif"
-		color = 0x000000
+		name = "MS_Sans_Serif"
+		path = "gfx/fonts/MS_Sans_Serif"
+		color = 0xfffffff
 	}
 }
