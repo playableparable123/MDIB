@@ -1,0 +1,8 @@
+
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS Sans Serif"
+		path = "gfx/fonts/MS Sans Serif"
+		color = 0x000000
+	}
+}

@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	#### America Starting Tree
+
+	SpriteType = {
+	name = "GFX_USA_USA_2000"
+	texturefile = "gfx/interface/goals/USA/1/Hello2000.png"			
+	}
+

@@ -1,0 +1,29 @@
+focus_tree = {
+	id = USA_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = USA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1600 }
+
+	focus = {
+		id = USA_USA_2000
+		icon = GFX_USA_USA_2000
+		cost = 2
+		x = 7
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_USA_2000"
+		}
+	}
