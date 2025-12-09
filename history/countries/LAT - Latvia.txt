@@ -196,14 +196,14 @@ set_popularities = {
 	western_democracy = 30
 	new_right = 15
 	marxism = 15
-	institutionalism = 40
+	institutionalism = 20
 }
 create_country_leader = {
-	name = "idk"
+	name = "Ints Cālītis"
 	desc = ""
-	picture = "gfx/leaders/LAT/.png"
+	picture = "gfx/leaders/LAT/Ints_Cālītis.png"
 	expire = "2050.1.1"
-	ideology = agrarian_populism
+	ideology = National_Liberalism
 	traits = {
 	}
 }

@@ -90,15 +90,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	western_democracy = 20
+	western_democracy = 50
 	new_right = 30
-	marxism = 50
+	marxism = 20
 }
 
 create_country_leader = {
-	name = "idk"
+	name = "Volodymyr Lytvyn"
 	desc = ""
-	picture = "gfx/leaders/UKR/.png"
+	picture = "gfx/leaders/UKR/Volodymyr_Lytvyn.png"
 	expire = "2050.1.1"
 	ideology = agrarian_populism
 	traits = {

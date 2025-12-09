@@ -214,17 +214,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	western_democracy = 20
+	western_democracy = 60
 	new_right = 15
 	marxism = 5
-	institutionalism = 60
+	institutionalism = 20
 }
 create_country_leader = {
-	name = "idk"
+	name = "Paul-Eerik Rummo"
 	desc = ""
-	picture = "gfx/leaders/EST/.png"
+	picture = "gfx/leaders/EST/Paul-Eerik_Rummo.png"
 	expire = "2050.1.1"
-	ideology = agrarian_populism
+	ideology = Elitist_Liberalism
 	traits = {
 	}
 }
