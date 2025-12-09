@@ -545,8 +545,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 500 y = 200 }
-			font = "vhs_18_inverted"
+			position = { x = 80 y = 284 }
+			font = "MS_Sans_Serif_Inverted_14"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
 			maxWidth = 340
@@ -556,8 +556,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "bookmark_title"
-			position = { x = 540 y = 260 }
-			font = "vhs_18_inverted"
+			position = { x = 215 y = 303 }
+			font = "MS_Sans_Serif_Inverted_14"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
 			maxHeight = 30
@@ -566,8 +566,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "bookmark_desc"
-			position = { x = 400 y = 300 }
-			font = "vhs_18_inverted"
+			position = { x = -20 y = 329 }
+			font = "MS_Sans_Serif_Inverted_14"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 540
 			maxHeight = 30
@@ -609,10 +609,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 435 y = 12 }
+			position = { x = -110 y = 12 }
 			textureFile = ""
-			font = "MS_Sans_Serif"
-			borderSize = {x = 0 y = 0}
+			font = "MS_Sans_Serif_9"
+			borderSize = {x = 0 y = 49}
 			text = "FE_SELECT_COUNTRY"
 			maxWidth = 340
 			maxHeight = 30
@@ -630,7 +630,7 @@ guiTypes = {
 			position = { x = 280 y = -4 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "BACK"
-			buttonFont = "MS_Sans_Serif"
+			buttonFont = "MS_Sans_Serif_Inverted_14"
 			Orientation = "CENTER_DOWN"
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -651,17 +651,17 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 15 y = 45 }
+			position = { x = 0 y = 85 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
 				name ="countries_grid"
-				position = { x = -270 y = 250 }
+				position = { x = -918 y = 220 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 150 height = 0 }
 				add_horizontal = yes
 				max_slots_vertical = 1
-				format = "UPPER_LEFT"
+				format = "CENTER"
 			}
 
 		}
@@ -703,22 +703,22 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 1050 y = 441 }
+			position = { x = 1011 y = 87 }
 			scale=1
-			rotation = 0.04
+			rotation = 0.0
 		}
 
 		iconType = {
 				name ="minor_portrait_overlay"
 				spriteType = "GFX_stickytape"
-				position = { x= 1100 y = 400 }
+				position = { x= 1010 y = 87 }
 		}
 
 
 		instantTextBoxType = {
 			name = "info_title"
-			position = { x = -70 y = 100 }
-			font = "vhs_18"
+			position = { x = -88 y = 100 }
+			font = "MS_Sans_Serif_20"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_INFO_TITLE"
 			maxWidth = 340
@@ -733,7 +733,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "leader_label"
 				position = { x = -100 y = -80 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -744,7 +744,7 @@ guiTypes = {
 				name = "leader"
 				position = { x = -100 y = -60 }
 				textureFile = ""
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -755,7 +755,7 @@ guiTypes = {
 				name = "ideology_label"
 				position = { x = -100 y = -20 }
 				textureFile = ""
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -765,7 +765,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology"
 				position = { x = -100 y = -00 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -774,7 +774,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government_label"
 				position = { x = -100 y = 40 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -784,7 +784,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government"
 				position = { x = -100 y = 60 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
 				maxWidth = 340
@@ -794,7 +794,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections_label"
 				position = { x = -100 y = 100 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS"
 				maxWidth = 340
@@ -804,7 +804,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections"
 				position = { x = -100 y = 120 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -813,7 +813,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party_label"
 				position = { x = -100 y = 160 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -823,7 +823,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party"
 				position = { x = -100 y = 180 }
-				font = "vhs_18"
+				font = "MS_Sans_Serif_20"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -843,7 +843,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 451 y = 475 }
+			position = { x = 308 y = 475 }
 
 			iconType ={
 				name ="pol_faction_icon"
@@ -888,8 +888,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 450 y = 400 }
-			font = "vhs_18"
+			position = { x = 455 y = 440 }
+			font = "MS_Sans_Serif_20"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
 			maxWidth = 340
@@ -899,8 +899,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 400 y = 450 }
-			font = "vhs_18"
+			position = { x = 400 y = 470 }
+			font = "MS_Sans_Serif_20"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 450
 			maxHeight = 30

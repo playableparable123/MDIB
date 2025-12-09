@@ -49,7 +49,7 @@ guiTypes = {
 				name = "text"
 				position = { x = -400 y = 17 }
 				textureFile = ""
-				font = "MS_Sans_Serif"
+				font = "MS_Sans_Serif_Inverted_20"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 800
@@ -62,7 +62,7 @@ guiTypes = {
 			{
 				name = "progressbar"
 				spriteType = "GFX_loadingstatus_progress"
-				position = { x=-600 y=730 }
+				position = { x=-220 y=230 }
 			}
 		}
 		
@@ -89,7 +89,7 @@ guiTypes = {
 				name = "text"
 				position = { x = -450 y = -157 }
 				textureFile = ""
-				font = "MS_Sans_Serif"
+				font = "MS_Sans_Serif_Inverted_20"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 900

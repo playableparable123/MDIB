@@ -1,8 +1,44 @@
 
 bitmapfonts = {
 	bitmapfont = {
-		name = "MS_Sans_Serif"
-		path = "gfx/fonts/MS_Sans_Serif"
-		color = 0xfffffff
+		name = "MS_Sans_Serif_9"
+		path = "gfx/fonts/MS_Sans_Serif_9"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_14"
+		path = "gfx/fonts/MS_Sans_Serif_14"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_20"
+		path = "gfx/fonts/MS_Sans_Serif_20"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Inverted_9"
+		path = "gfx/fonts/MS_Sans_Serif_Inverted_9"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Inverted_14"
+		path = "gfx/fonts/MS_Sans_Serif_Inverted_14"
+		color = 0xffffffff
+	}
+}
+
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Inverted_20"
+		path = "gfx/fonts/MS_Sans_Serif_Inverted_20"
+		color = 0xffffffff
 	}
 }
