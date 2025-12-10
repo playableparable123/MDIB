@@ -30,7 +30,15 @@ set_technology = {
 
 set_convoys = 300
 
+set_variable = { ROOT.CULTURE = 75 }
+set_variable = { THIS.RELIGION = 22 }
 set_country_flag = is_us_cap_territory
+
+set_party_name = { 
+    ideology = radical_democracy 
+    long_name = JAD_radical_democracy_long
+    name = JAD_radical_democracy_party
+}
 
 set_politics = {
 	ruling_party = radical_democracy

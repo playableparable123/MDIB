@@ -578,6 +578,11 @@ ORE_western_democracy_party_long:0 "Conservative Party of oregon"
 
 SCR_obscurantism_party:0 "Stalwart Party"
 
+#Pacific Island
+
+JAD_radical_democracy_party:0 "Pacific Islanders"
+JAD_radical_democracy_long:0 "Pacific Islanders"
+
 ### Cali Revolts ###
 
 #Church of Satan

@@ -42,3 +42,45 @@ bitmapfonts = {
 		color = 0xffffffff
 	}
 }
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Bold_12"
+		path = "gfx/fonts/MS_Sans_Serif_Bold_12"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Bold_14"
+		path = "gfx/fonts/MS_Sans_Serif_Bold_14"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Bold_Inverted_12"
+		path = "gfx/fonts/MS_Sans_Serif_Bold_Inverted_12"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Sans_Serif_Bold_Inverted_14"
+		path = "gfx/fonts/MS_Sans_Serif_Bold_Inverted_14"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Serif_Sans_Bold_16"
+		path = "gfx/fonts/MS_Serif_Sans_Bold_16"
+		color = 0xffffffff
+	}
+}
+bitmapfonts = {
+	bitmapfont = {
+		name = "MS_Serif_Sans_Bold_Inverted_16"
+		path = "gfx/fonts/MS_Serif_Sans_Bold_Inverted_16"
+		color = 0xffffffff
+	}
+}

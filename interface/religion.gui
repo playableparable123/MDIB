@@ -5,7 +5,7 @@ guiTypes = {
 		iconType ={
 			name ="religion_icon"
 			quadTextureSprite = "GFX_religions_strip"
-			position = { x= 465 y = 136 }
+			position = { x= 461 y = 132 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = RELIGION_NAMEKEY
 			pdx_tooltip_delayed = RELIGION_DESCKEY
