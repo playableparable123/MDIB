@@ -7,7 +7,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = PRE
+		owner = PRG
 		add_core_of = PRE
 		buildings = {
 			infrastructure = 2

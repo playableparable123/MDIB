@@ -2005,6 +2005,13 @@
  HAW_occidental_despotism:0 "Kingdom of Hawaii"
  HAW_occidental_despotism_DEF:0 "The Kingdom of Hawaii"
  HAW_occidental_despotism_ADJ:0 "Hawaiian"
+ 
+ JAD:0 "Pacific Island"
+ JAD_DEF:0 "Pacific Island"
+ JAD_ADJ:0 "Pacific Islander"
+ JAD_radical_democracy:0 "Pacific Island"
+ JAD_radical_democracy_DEF:0 "Pacific Island"
+ JAD_radical_democracy_ADJ:0 "Pacific Islander"
 
  MAC:0 "Sclavenia"
  MAC_DEF:0 "Sclavenia"

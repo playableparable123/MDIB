@@ -387,6 +387,8 @@ NAP = "countries/Na'pana.txt"
 WRU = "countries/White Ruthenia.txt"
 LEC = "countries/Lechia.txt"
 
+JAD = "countries/Pacific Island.txt"
+
 # Cali Revolt Tags
 CST = "countries/Church of Satan.txt"
 PAC = "countries/Pacific Republic.txt"

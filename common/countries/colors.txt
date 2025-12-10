@@ -24,6 +24,10 @@ APT = {
 	color = rgb { 111 120 135 }
 	color_ui = rgb { 111 120 135 }
 }
+JAD = {
+	color = rgb { 0 149 0 }
+	color_ui = rgb { 0 149 0 }
+}
 ENG = {
 	color = rgb { 53 91 109 }
 	color_ui = rgb { 40 110 142 }
