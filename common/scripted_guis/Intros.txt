@@ -1,0 +1,8 @@
+scripted_gui = {	#### India Intro ####
+
+	India_Intro = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE Intros.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "India_Intro_custom_window"
+
+		}
+	}

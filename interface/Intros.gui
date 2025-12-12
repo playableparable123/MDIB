@@ -1,0 +1,55 @@
+guiTypes = { ######## INDIA INTRO ########
+	
+	containerWindowType = {
+		name = "India_Intro_custom_window"
+		spriteType = "GFX_superevent_India_Intro"
+		size = { width = 220 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = India_Intro_Sound ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+		instantTextBoxType = {
+			name = "Country_Name"
+			position = { x = 0 y = 20 }
+			font = "MS_Sans_Serif_Bold_Inverted_14"
+			borderSize = {x = 0 y = 0}
+			text = "BE_Intro_India_T" ###### HERE GOES THE TITLE ########
+			maxWidth = 220
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_India_Intro"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 70 y = -173 }
+			font = "MS_Sans_Serif_Inverted_14"
+			text = "BE_India_Intro_Description" ######## HERE GOES THE DESCRIPTION ###########
+			maxWidth = 500
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = left
+		}
+		buttonType = {
+			name = "Escape"
+			spriteType = "GFX_closebutton_Intro_Button"
+			shortcut = ""
+			position = { x = -140 y = 183 }
+			quadTextureSprite ="GFX_closebutton_Intro_Button"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			oversound = ui_menu_over
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}
+

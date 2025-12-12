@@ -1,0 +1,13 @@
+country_event = {
+	id = Intro.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event Intro.1 FROM = [From.GetName]" }
+	hidden = yes
+	fire_only_once = yes
+
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		RAJ = {
+			country_event = { id = Intro.1 }
