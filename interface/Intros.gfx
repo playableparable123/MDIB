@@ -1,10 +1,11 @@
-spriteType = {
+spriteTypes = {        
+    SpriteType = {
 		name = "GFX_closebutton_Intro_Button"
-		textureFile = "gfx/interface/intros/Intro_Button.dds"
+		texturefile = "gfx/interface/intros/Intro_Button.dds"
 	}
-	spriteType = {
+	SpriteType = {
 		name = "GFX_superevent_India_Intro"
-		textureFile = "gfx/interface/intros/Intro_India.dds"
+		texturefile = "gfx/interface/intros/Intro_India.dds"
 	}
 
 }

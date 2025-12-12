@@ -4,21 +4,14 @@ guiTypes = { ######## INDIA INTRO ########
 		name = "India_Intro_custom_window"
 		spriteType = "GFX_superevent_India_Intro"
 		size = { width = 220 height = 128 }
-		position = { x=0 y=-210 }
+		position = { x=-266 y=-325 }
 		Orientation = center
 		Origo = center
 		clipping = no
 		show_sound = India_Intro_Sound ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
 
 		instantTextBoxType = {
-			name = "Country_Name"
-			position = { x = 0 y = 20 }
-			font = "MS_Sans_Serif_Bold_Inverted_14"
-			borderSize = {x = 0 y = 0}
-			text = "BE_Intro_India_T" ###### HERE GOES THE TITLE ########
-			maxWidth = 220
-			maxHeight = 24
-			format = centre
+			
 		}
 
 		iconType = {
@@ -29,9 +22,31 @@ guiTypes = { ######## INDIA INTRO ########
 			alwaystransparent = yes
 		}
 		instantTextBoxType = {
+			name = "Country_Name"
+			position = { x = 380 y = 91 }
+			font = "MS_Sans_Serif_Inverted_20"
+			borderSize = {x = 0 y = 0}
+			text = "BE_Intro_India_T" ###### HERE GOES THE TITLE ########
+			maxWidth = 220
+			maxHeight = 24
+			format = centre
+			Orientation = left
+		}	
+		instantTextBoxType = {
+			name = "Country_Name"
+			position = { x = 2 y = 1 }
+			font = "MS_Sans_Serif_9"
+			borderSize = {x = 0 y = 0}
+			text = "Country intro"
+			maxWidth = 220
+			maxHeight = 24
+			format = centre
+			Orientation = left
+		}
+		instantTextBoxType = {
 			name = "text"
-			position = {  x= 70 y = -173 }
-			font = "MS_Sans_Serif_Inverted_14"
+			position = {  x= 66 y = 240 }
+			font = "MS_Serif_Sans_Bold_Inverted_16"
 			text = "BE_India_Intro_Description" ######## HERE GOES THE DESCRIPTION ###########
 			maxWidth = 500
 			maxHeight = 173
@@ -43,12 +58,14 @@ guiTypes = { ######## INDIA INTRO ########
 			name = "Escape"
 			spriteType = "GFX_closebutton_Intro_Button"
 			shortcut = ""
-			position = { x = -140 y = 183 }
+			position = { x = 680 y = 51 }
 			quadTextureSprite ="GFX_closebutton_Intro_Button"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			oversound = ui_menu_over
 			pdx_tooltip = "CLOSE"
+		    click_effect = {
+            clr_country_flag = "India_Intro_custom_window"
 		}
 	}
 }

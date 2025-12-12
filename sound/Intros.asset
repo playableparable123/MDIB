@@ -1,7 +1,6 @@
 ########################DEBUG #########################
-sound =
-{
+sound = {
 	name = "India_Intro_Sound"
-	file = "India_Intro_Sound.wav"
+	file = "intros/India_Intro_Sound.wav"
 	always_load = no
 }
