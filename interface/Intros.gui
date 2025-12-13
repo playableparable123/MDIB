@@ -55,7 +55,7 @@ guiTypes = { ######## INDIA INTRO ########
 			Orientation = left
 		}
 		buttonType = {
-			name = "Escape"
+			name = "closebutton_Intro_Button"
 			spriteType = "GFX_closebutton_Intro_Button"
 			shortcut = ""
 			position = { x = 680 y = 51 }
@@ -64,8 +64,6 @@ guiTypes = { ######## INDIA INTRO ########
 			clicksound = click_close
 			oversound = ui_menu_over
 			pdx_tooltip = "CLOSE"
-		    click_effect = {
-            clr_country_flag = "India_Intro_custom_window"
 		}
 	}
 }

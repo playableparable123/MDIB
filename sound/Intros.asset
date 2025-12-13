@@ -1,6 +1,16 @@
-########################DEBUG #########################
 sound = {
-	name = "India_Intro_Sound"
-	file = "intros/India_Intro_Sound.wav"
-	always_load = no
+	name = "India_Intro_Sound1"
+	file = "India_Intro_Sound.wav"
+}
+soundeffect = {
+	name = India_Intro_Sound
+	loop = no
+	falloff = "falloff_100"
+	sounds = {
+		sound = India_Intro_Sound1
+		}
+	is3d = no
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.5
 }
