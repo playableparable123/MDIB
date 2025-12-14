@@ -5,6 +5,7 @@ state = {
 	history = {
 
 		owner = TIB
+                controller = CHI
 		add_core_of = TIB
 
 		#victory_points = {

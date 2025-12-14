@@ -6,7 +6,7 @@ state=
 	state_category = metropolis
 	history=
 	{
-		owner = LNQ
+		owner = CHI
 		add_core_of = LNQ
 		victory_points = {
 			10062 40 

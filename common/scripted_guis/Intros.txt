@@ -2,14 +2,21 @@ scripted_gui = {	#### India Intro ####
 	India_Intro = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE Intros.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "India_Intro_custom_window"	
-		}
+
 		visible = {
-            has_country_flag = Intro_India    
+            has_country_flag = Intro_India@RAJ    
 		}	
 		effects = {
-		sound_effect = India_Intro_Sound
+		sound_effect = { India_Intro_Sound
+		}
+		}
+        immediate = {
+		    RAJ = {
+                set_country_flag = Intro_India@RAJ
+		}
+		}
 		    closebutton_Intro_Button_click = {
-			    clr_country_flag = Intro_India   
+			    clr_country_flag = Intro_India@RAJ   
 		}
 	}
 }

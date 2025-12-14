@@ -1,0 +1,86 @@
+ideas = {
+	country = {
+			TheAmericanCentury = {
+			picture = TheAmericanCentury
+			allowed = {
+				tag = USA
+			}
+
+            available = {
+               	tag = USA
+            }
+
+            cancel = {
+              
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+			SuspendedElections = {
+			picture = SuspendedElections
+			allowed = {
+				tag = USA
+			}
+
+            available = {
+               	tag = USA
+            }
+
+            cancel = {
+              
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+			StableRaceRelations= {
+			picture = StableRaceRelations
+			allowed = {
+				tag = USA
+			}
+
+            available = {
+               	tag = USA
+            }
+
+            cancel = {
+              
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}
+			Overseasstates= {
+			picture = Overseasstates
+			allowed = {
+				tag = USA
+			}
+
+            available = {
+               	tag = USA
+            }
+
+            cancel = {
+              
+            }
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+			}
+		}

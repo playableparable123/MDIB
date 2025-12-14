@@ -227,4 +227,20 @@ SpriteTypes = {
 		name = "GFX_idea_AST_Sinclair"
 		texturefile = "gfx/interface/ideas/AST/Sinclairsdiemens.png"
 	}
+		spriteType = {
+		name = "GFX_idea_TheAmericanCentury"
+		texturefile = "gfx/interface/ideas/USA/TheAmericanCentury.png"
+	}
+		spriteType = {
+		name = "GFX_idea_SuspendedElections"
+		texturefile = "gfx/interface/ideas/USA/SuspendedElections.png"
+	}
+		spriteType = {
+		name = "GFX_idea_StableRaceRelations"
+		texturefile = "gfx/interface/ideas/USA/StableRaceRelations.png"
+	}
+		spriteType = {
+		name = "GFX_idea_Overseasstates"
+		texturefile = "gfx/interface/ideas/USA/Overseasstates.png"
+	}
 }

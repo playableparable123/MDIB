@@ -6,7 +6,7 @@ state=
 	state_category = small_island
 	history=
 	{
-		owner = SAT
+		owner = JAP
 		add_core_of = SAT
 		buildings = {
 			infrastructure = 2

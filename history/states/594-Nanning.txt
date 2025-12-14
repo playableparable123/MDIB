@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = LNQ
+		owner = CHI
 		add_core_of = LNQ
 		buildings = {
 			infrastructure = 2

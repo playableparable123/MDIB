@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = MON
+                controller = CHI
 		add_core_of = MON
 		buildings = {
 			infrastructure = 2

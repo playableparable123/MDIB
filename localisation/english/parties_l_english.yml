@@ -186,7 +186,7 @@
  liberalism_id_desc:0 ""
  new_liberalism:0 "New Liberalism"
  new_liberalism_desc:0 ""
- authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy:0 "Auth-Democracy"
  authoritarian_democracy_desc:0 ""
  religious_democracy:0 "Religious Democracy"
  religious_democracy_desc:0 "A curious unity of enlightenment and tradition, Religious Democrats' guiding principles are defined by the moral character of their faith, rather than secular senses of humanism or civic duty. Whether pluralistic or centered around just one religion, the system's exact shape and dynamic depends entirely on the faith being practiced, but there are common threads running through all of them. Whether culturally regressive or progressive, many invest heavily into charity and public works, welfare and social safety, and of course, lend major state support to religious institutions." 
@@ -577,6 +577,11 @@ ORE_western_democracy_party_long:0 "Conservative Party of oregon"
 #SOUTH CAROLINA
 
 SCR_obscurantism_party:0 "Stalwart Party"
+
+#United States
+
+USA_western_democracy_party:0 "United Republican Party"
+USA_western_democracy_party_long:0 "United Republican Party"
 
 #Pacific Island
 

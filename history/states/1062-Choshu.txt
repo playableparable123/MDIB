@@ -3,7 +3,7 @@ state={
 	name="STATE_1062"
 
 	history={
-		owner = SAT
+		owner = JAP
 		add_core_of = SAT
 		buildings = {
 			infrastructure = 4

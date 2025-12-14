@@ -686,10 +686,10 @@
 
  JAP:0 "Japan"
  JAP_DEF:0 "Japan"
- JAP_ADJ:0 "North Japanese"
- JAP_oriental_despotism:0 "Axicaga Shogunate"
- JAP_oriental_despotism_DEF:0 "The Axicaga Shogunate"
- JAP_oriental_despotism_ADJ:0 "North Japanese"
+ JAP_ADJ:0 "Japanese"
+ JAP_oriental_despotism:0 "Imperial Commonwealth of Japan"
+ JAP_oriental_despotism_DEF:0 "The United Imperial Commonwealth of The Empire of Japan and The Axicaga Shogunate"
+ JAP_oriental_despotism_ADJ:0 "Japanese"
 
  KOR:0 "Silla"
  KOR_DEF:0 "Silla"

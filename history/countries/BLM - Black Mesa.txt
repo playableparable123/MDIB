@@ -30,6 +30,8 @@ set_technology = {
 
 set_convoys = 300
 
+set_variable = { ROOT.CULTURE = 91 }
+set_variable = { ROOT.RELIGION = 25 }
 set_country_flag = is_us_cap_territory
 
 set_politics = {
