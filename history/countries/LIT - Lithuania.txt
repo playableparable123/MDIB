@@ -14,11 +14,21 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = occidental_despotism
+	ruling_party = obscurantism
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	occidental_despotism = 100
+	obscurantism = 100
+}
+
+create_country_leader = {
+	name = "Ekkelis V Jagiellonian"
+	desc = ""
+	picture = "gfx/leaders/LIT/lithking_portrait.png"
+	expire = "2050.1.1"
+	ideology = gothic_monarchy
+	traits = {
+	}
 }

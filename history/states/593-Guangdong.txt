@@ -3,7 +3,7 @@ state={
 	name="STATE_593"
 
 	history={
-		owner = USA
+		owner = PMU
 		add_core_of = ORE
 		victory_points = {
 			17322 14

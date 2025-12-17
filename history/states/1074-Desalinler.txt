@@ -3,7 +3,7 @@ state={
 	name="STATE_1074"
 
 	history={
-		owner = JAM
+		owner = DOM
 		buildings = {
 			infrastructure = 4
 			telecom_infrastructure = 2

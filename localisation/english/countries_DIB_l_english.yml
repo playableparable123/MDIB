@@ -406,12 +406,15 @@
  LAT_western_democracy_DEF:0 "Principality of Latvia"
  LAT_western_democracy_ADJ:0 "Latvian"
  
- LEC:0 "Conch Republic"
+ LEC:0 "Lechia"
  LEC_DEF:0 "Lechia"
  LEC_ADJ:0 "Lechian"
  LEC_western_democracy:0 "Principality of Lechia"
  LEC_western_democracy_DEF:0 "Principality of Lechia"
  LEC_western_democracy_ADJ:0 "Lechian"
+ LEC_institutionalism:0 "Principality of Lechia"
+ LEC_institutionalism_DEF:0 "Principality of Lechia"
+ LEC_institutionalism_ADJ:0 "Lechian"
  
  CAP:0 "Capitol Hill"
  CAP_DEF:0 "Capitol Hill"
@@ -1097,6 +1100,9 @@
  POL_obscurantism:0 "Kingdom of Poland"
  POL_obscurantism_DEF:0 "The Kingdom of Poland"
  POL_obscurantism_ADJ:0 "Polish"
+ POL_new_right:0 "Kingdom of Poland"
+ POL_new_right_DEF:0 "The Kingdom of Poland"
+ POL_new_right_ADJ:0 "Polish"
 
  SAT:0 "Japan"
  SAT_DEF:0 "Japan"

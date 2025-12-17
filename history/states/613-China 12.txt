@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = USA
+		owner = RJN
 		add_core_of = ORE
 		buildings = {
 			infrastructure = 2

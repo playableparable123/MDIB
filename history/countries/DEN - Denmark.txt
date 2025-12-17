@@ -18,12 +18,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = western_democracy
+	ruling_party = occidental_despotism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	western_democracy = 100
+	occidental_despotism = 100
+}
+
+create_country_leader = {
+	name = "Ingolf I"
+	desc = ""
+	picture = "gfx/leaders/DEN/Ingolf_I_Portrait.png"
+	expire = "2050.1.1"
+	ideology = absolutism
+	traits = {
+	}
 }

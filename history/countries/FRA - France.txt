@@ -49,9 +49,9 @@ add_to_faction = BRA
 add_to_faction = SPR
 
 create_country_leader = {
-	name = "Pierre Juquin"
+	name = "Jean-Marc Rouillan"
 	desc = ""
-	picture = "gfx/leaders/FRA/Pierre_Juquin.png"
+	picture = "gfx/leaders/FRA/Jean-Marc_Roullian.png"
 	expire = "2050.1.1"
 	ideology = jacobinism
 	traits = {

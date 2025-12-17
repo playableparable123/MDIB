@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/MUN/Mark_Quiet_Hawk.png"
 	expire = "2050.1.1"
-	ideology = religious_communalism
+	ideology = social_faith
 	traits = {
 	}
 }

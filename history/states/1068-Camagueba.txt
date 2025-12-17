@@ -3,7 +3,7 @@ state={
 	name="STATE_1068"
 
 	history={
-		owner = JAM
+		owner = CUB
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

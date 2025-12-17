@@ -6,7 +6,7 @@ state = {
 
 	history = {
 		
-		owner = ALQ
+		owner = SAU
 		add_core_of = ALQ
 
 		victory_points = {

@@ -21,22 +21,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = new_right
+	ruling_party = obscurantism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	new_right = 100
+	obscurantism = 100
 }
 
 create_country_leader = {
-	name = "Frank Van Dun"
+	name = "Albert II"
 	desc = ""
-	picture = "gfx/leaders/BEL/Frank_Van_Dun.png"
+	picture = "gfx/leaders/BEL/albi2_portrait.png"
 	expire = "2050.1.1"
-	ideology = electmon
+	ideology = feuillantism
 	traits = {
 	}
 }

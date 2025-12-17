@@ -27,25 +27,25 @@ set_technology = {
 set_convoys = 100
 set_country_flag = is_us_reserve
 set_politics = {
-	ruling_party = obscurantism
+	ruling_party = radical_democracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	obscurantism = 60
-	radical_democracy = 30
+	obscurantism = 30
+	radical_democracy = 60
 	independent_socialism = 5
 	radical_right = 5
 }
 
 create_country_leader = {
-	name = "David Yeagley"
+	name = "Roy Boney Jr."
 	desc = ""
-	picture = "gfx/leaders/INT/David_Yeagley.png"
+	picture = "gfx/leaders/INT/Roy_Boney_Jr.png"
 	expire = "2050.1.1"
-	ideology = classical_conservatism
+	ideology = creative_democracy
 	traits = {
 	}
 }

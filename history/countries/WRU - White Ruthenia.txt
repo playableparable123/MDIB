@@ -43,11 +43,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Idk"
+	name = "Zianon Pazniak"
 	desc = ""
-	picture = "gfx/leaders/WRU/.png"
+	picture = "gfx/leaders/WRU/Ziapaz_Portrait.png"
 	expire = "2050.1.1"
-	ideology = agrarian_populism
+	ideology = religious_democracy
 	traits = {
 	}
 }

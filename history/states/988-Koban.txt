@@ -4,7 +4,7 @@ state={
 	name="STATE_988"
 
 	history={
-		owner = JAM
+		owner = CUB
 		buildings = {
 			infrastructure = 3
 			telecom_infrastructure = 2

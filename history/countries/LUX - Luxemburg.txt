@@ -33,7 +33,7 @@ set_popularities = {
 	occidental_despotism = 100
 }
 create_country_leader = {
-	name = "Jean"
+	name = "Jean I"
 	desc = ""
 	picture = "gfx/leaders/LUX/Jean.png"
 	expire = "2050.1.1"

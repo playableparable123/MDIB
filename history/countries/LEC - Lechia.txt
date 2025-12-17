@@ -33,21 +33,21 @@ set_convoys = 300
 set_country_flag = is_us_cap_territory
 
 set_politics = {
-	ruling_party = western_democracy
+	ruling_party = institutionalism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	unclassifiable = 100
+	institutionalism = 100
 }
 
 create_country_leader = {
-	name = "idk"
+	name = "Leszek Balcerowicz"
 	desc = ""
-	picture = "gfx/leaders/LEC/.png"
+	picture = "gfx/leaders/LEC/lezekbac_portrait.png"
 	expire = "2050.1.1"
-	ideology = conservative_liberalism
+	ideology = financialism
 	traits = {
 	}
 }

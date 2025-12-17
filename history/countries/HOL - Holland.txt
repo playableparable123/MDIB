@@ -22,13 +22,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = western_democracy
+	ruling_party = obscurantism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	western_democracy = 100
+	obscurantism = 100
 }
 
 set_variable = { HOL.CULTURE = 30 }
@@ -38,11 +38,11 @@ set_convoys = 560
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Bastiaan van der Vlies"
+	name = "Beatrix I Armgard"
 	desc = ""
-	picture = "gfx/leaders/HOL/BastiaanvanderVlies.png"
+	picture = "gfx/leaders/HOL/bea2_portrait.png"
 	expire = "2050.1.1"
-	ideology = social_conservatism
+	ideology = aristocracy
 	traits = {
 	}
 }

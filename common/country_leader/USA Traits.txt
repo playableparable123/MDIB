@@ -2,7 +2,7 @@ leader_traits = {
     Emergency_Government = {
         random = no
         political_power_gain 0.10
-        stability_factor = 5.00
-        drift_defence_factor = 10.00
+        stability_factor = 0.05
+        drift_defence_factor = 00.10
     }
 }

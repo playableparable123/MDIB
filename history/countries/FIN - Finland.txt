@@ -28,11 +28,11 @@ set_popularities = {
 	western_democracy = 100
 }
 create_country_leader = {
-	name = "Jukka Vihriälä"
+	name = "Jukka Vihriala"
 	desc = ""
-	picture = "gfx/leaders/FIN/Jukka_Vihriälä.png"
+	picture = "gfx/leaders/FIN/Jukka_Vihriala.png"
 	expire = "2050.1.1"
-	ideology = Agrarian Populism
+	ideology = Agrarian_Populism
 	traits = {
 	}
 }

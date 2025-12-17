@@ -24,11 +24,21 @@ set_technology = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = obscurantism
+	ruling_party = new_right
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	obscurantism = 100
+	new_right = 100
+}
+
+create_country_leader = {
+	name = "Rydygier I"
+	desc = ""
+	picture = "gfx/leaders/POL/Ruding_Portrait.png"
+	expire = "2050.1.1"
+	ideology = electmon
+	traits = {
+	}
 }

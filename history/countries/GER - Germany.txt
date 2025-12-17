@@ -47,65 +47,11 @@ set_popularities = {
 	obscurantism = 10
 }
 create_country_leader = {
-	name = "Otto Graf Lambsdorff"
+	name = "Eberhard von Brauchitsch"
 	desc = ""
-	picture = "gfx/leaders/GER/Otto_Graf_Lambsdorff.png"
+	picture = "gfx/leaders/GER/braut_portrait2.png"
 	expire = "2050.1.1"
 	ideology = elitist_liberalism
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Herbert Wehner"
-	desc = ""
-	picture = "gfx/leaders/GER/Herbert_Wehner.png"
-	expire = "2050.1.1"
-	ideology = left_wing_populism
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Willie Brandt"
-	desc = ""
-	picture = "gfx/leaders/GER/Willie_Brandt.png"
-	expire = "2050.1.1"
-	ideology = liberal_socialism
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Rudolf Bahro"
-	desc = ""
-	picture = "gfx/leaders/GER/Rudolf_Bahro.png"
-	expire = "2050.1.1"
-	ideology = cooperativism
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Gunter Verhuegen"
-	desc = ""
-	picture = "gfx/leaders/GER/Gunter_Verhuegen.png"
-	expire = "2050.1.1"
-	ideology = nativist_populism
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Hans Hermann Hoppe"
-	desc = ""
-	picture = "gfx/leaders/GER/Hans_Hermann_Hoppe.png"
-	expire = "2050.1.1"
-	ideology = reactmod
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Angela Merkel"
-	desc = ""
-	picture = "gfx/leaders/GER/Angela_Merkel.png"
-	expire = "2050.1.1"
-	ideology = social_corporatism
 	traits = {
 	}
 }

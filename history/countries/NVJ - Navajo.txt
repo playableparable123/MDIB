@@ -47,9 +47,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Peter MacDonald"
+	name = "Joe Shirley Jr."
 	desc = ""
-	picture = "gfx/leaders/NVJ/Peter_MacDonald.png"
+	picture = "gfx/leaders/NVJ/Joe_Shirley_Jr.png"
 	expire = "2050.1.1"
 	ideology = tribal_democracy
 	traits = {

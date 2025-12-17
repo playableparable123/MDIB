@@ -38,9 +38,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Richard Wilson"
+	name = "Harold Salway"
 	desc = ""
-	picture = "gfx/leaders/SIO/Richard_Wilson.png"
+	picture = "gfx/leaders/SIO/Harold_Salway.png"
 	expire = "2050.1.1"
 	ideology = tribal_democracy
 	traits = {

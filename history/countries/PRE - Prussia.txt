@@ -41,9 +41,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ferdinand von Preußen"
+	name = "Friedrich Wilhelm"
 	desc = ""
-	picture = "gfx/leaders/PRE/Oldfuck.png"
+	picture = "gfx/leaders/PRE/prussking_Portrait.png"
 	expire = "2050.1.1"
 	ideology = obscurantism_id
 	traits = {
