@@ -10,7 +10,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "bookmark_entry"
 		position = { x= 0 y = 0 }
-		size = { width=28 height=211}
+		size = { width=72 height=72}
 		clipping = no
 		fade_time = 500
 		fade_type = linear
@@ -661,7 +661,7 @@ guiTypes = {
 				slotsize = { width = 150 height = 0 }
 				add_horizontal = yes
 				max_slots_vertical = 1
-				format = "CENTER"
+				format = "right"
 			}
 
 		}

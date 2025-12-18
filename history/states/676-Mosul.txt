@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PER
+		owner = IRQ
 		buildings = {
 			infrastructure = 2
 

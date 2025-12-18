@@ -7,7 +7,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SIH
+		owner = KAZ
 		buildings = {
 			infrastructure = 1
 		}
