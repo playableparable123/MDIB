@@ -8,6 +8,10 @@ CAP = {
 	color = rgb { 102 41 41 }
 	color_ui = rgb { 102 41 41 }
 }
+GRN = {
+	color = rgb { 161 80 80 }
+	color_ui = rgb { 161 80 80 }
+}
 MOS = {
 	color = rgb { 69 105 54 }
 	color_ui = rgb { 69 105 54 }

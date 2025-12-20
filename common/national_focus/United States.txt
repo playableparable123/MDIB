@@ -19,7 +19,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_USA_2000
-		icon = GFX_USA_USA_2000
+		icon = USA_USA_2000
 		cost = 2
 		x = 7
 		y = 0

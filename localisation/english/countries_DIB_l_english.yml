@@ -1180,6 +1180,9 @@
  DEN_western_democracy:0 "Kingdom of Denmark"
  DEN_western_democracy_DEF:0 "The Kingdom of Denmark"
  DEN_western_democracy_ADJ:0 "Danish"
+ DEN_occidental_despotism:0 "Kingdom of Denmark"
+ DEN_occidental_despotism_DEF:0 "The Kingdom of Denmark"
+ DEN_occidental_despotism_ADJ:0 "Danish"
 
  ANG:0 "South Africa"
  ANG_DEF:0 "South Africa"
@@ -1208,6 +1211,9 @@
  LIT_occidental_despotism:0 "Kingdom of Lithuania"
  LIT_occidental_despotism_DEF:0 "The Kingdom of Lithuania"
  LIT_occidental_despotism_ADJ:0 "Lithuanian"
+ LIT_obscurantism:0 "Kingdom of Lithuania"
+ LIT_obscurantism_DEF:0 "The Kingdom of Lithuania"
+ LIT_obscurantism_ADJ:0 "Lithuanian"
 
  BSP:0 "Bosporus"
  BSP_DEF:0 "Bosporus"
@@ -1815,6 +1821,7 @@
  PAC_new_right:0 "Pacific Republic"
  PAC_new_right_DEF:0 "Pacific Republic"
  PAC_new_right_ADJ:0 "Pacific Republican"
+ 
  PAC_occidental_despotism:0 "Koch Industries"
  PAC_occidental_despotism_DEF:0 "Koch Industries"
  PAC_occidental_despotism_ADJ:0 "Koch"
@@ -2018,6 +2025,13 @@
  JAD_radical_democracy:0 "Pacific Island"
  JAD_radical_democracy_DEF:0 "Pacific Island"
  JAD_radical_democracy_ADJ:0 "Pacific Islander"
+
+ GRN:0 "Kalaallit Nunaat"
+ GRN_DEF:0 "Greenland"
+ GRN_ADJ:0 "Greenlander"
+ GRN_radical_democracy:0 "Kalaallit Nunaat"
+ GRN_radical_democracy_DEF:0 "Greenland"
+ GRN_radical_democracy_ADJ:0 "Greenlander"
 
  MAC:0 "Sclavenia"
  MAC_DEF:0 "Sclavenia"
