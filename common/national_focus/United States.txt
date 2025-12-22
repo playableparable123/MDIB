@@ -21,9 +21,108 @@ focus_tree = {
 		id = USA_USA_2000
 		icon = USA_USA_2000
 		cost = 2
-		x = 7
+		x = 40
 		y = 0
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_USA_2000"
 		}
 	}
+	focus = {
+		id = USA_Tying_up_loose_ends
+		icon = USA_USA_2000
+		cost = 2
+		x = 0
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Tying_up_loose_ends"
+		}
+	}
+	focus = {
+		id = USA_Finish_the_reconstruction
+		icon = USA_USA_2000
+		cost = 2
+		x = 10
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Finish_the_reconstruction"
+		}
+	}
+	focus = {
+		id = USA_Keep_congress_in_line
+		icon = USA_USA_2000
+		cost = 2
+		x = 20
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Keep_congress_in_line"
+		}
+	}
+	focus = {
+		id = USA_The_finishing_touches
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Tying_up_loose_ends
+			focus = USA_Finish_the_reconstruction
+			focus = USA_Keep_congress_in_line
+		}
+		x = 10
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_The_finishing_touches"
+		}
+	}
+	focus = {
+		id = USA_Welcome_america
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_The_finishing_touches
+		}
+		x = 10
+		y = 20
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Welcome_america"
+		}
+	}
+	focus = {
+		id = USA_Back_in_business
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_The_finishing_touches
+		}
+		x = 0
+		y = 30
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Back_in_business"
+		}
+	}
+	focus = {
+		id = USA_End_the_y2k_scare
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_The_finishing_touches
+		}
+		x = 10
+		y = 30
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_End_the_y2k_scare"
+		}
+	}
+	focus = {
+		id = USA_Status_of_the_military
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_The_finishing_touches
+		}
+		x = 20
+		y = 30
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Status_of_the_military"
+		}
+	}
+
+}
