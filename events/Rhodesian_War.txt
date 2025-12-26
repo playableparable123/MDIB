@@ -1,0 +1,71 @@
+#MZB = Portugese Colonies
+#ZIM = Rhodesia (Later Zimbabwe)
+
+# Chiomio Incident
+country_event = {
+	id = bush.1
+	title = bush.1.t
+	desc = bush.1.desc
+    # Placeholder image
+	picture = GFX_report_event_tur_ataturk_death
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = bushwar_esclation
+			country_event = { id = bush.2 days = 30 }
+		}
+	}
+
+	option = {
+		name = bush.1
+	}
+}
+
+# Event triggered 30 days after Chiomio Incident
+# Negociations break down and reprisals occur
+country_event = {
+	id = bush.2
+	title = bush.2.t
+	desc = bush.2.desc
+    # Placeholder image
+	picture = GFX_report_event_tur_ataturk_death
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = bushwar_esclation
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = { id = bush.3 days = 30 }
+		}
+	}
+
+	option = {
+		name = bush.2
+	}
+}
+
+# War declaration between Rhodesia and Portuguese Colonies
+country_event = {
+	id = bush.3
+	title = bush.3.t
+	desc = bush.3.desc
+    # Placeholder image
+	picture = GFX_report_event_tur_ataturk_death
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			ZIM = { declare_war_on = { target = MZB type = annex_everything } }
+		}
+	}
+
+	option = {
+		name = bush.3
+	}
+}
