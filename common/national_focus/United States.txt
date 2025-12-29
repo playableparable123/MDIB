@@ -124,5 +124,231 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_Status_of_the_military"
 		}
 	}
+	focus = {
+		id = USA_Status_of_the_military
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_The_finishing_touches
+		}
+		x = 20
+		y = 30
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Status_of_the_military"
+		}
+	}
+	### Left Branch ##
+	focus = {
+		id = USA_American_century
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Back_in_business
+		}
+		x = -60
+		y = -60
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_American_century"
+		}
+	}
+	focus = {
+		id = USA_Cant_forget_the_farmers
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_American_century
+		}
+		mutually_exclusive = {
+			focus = USA_Focus_on_urbanization
+		}
+		x = -70
+		y = -70
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Cant_forget_the_farmers"
+		}
+	}
+	focus = {
+		id = USA_Focus_on_urbanization
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_American_century
+		}
+		mutually_exclusive = {
+			focus = USA_Cant_forget_the_farmers
+		}
+		x = -60
+		y = -70
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: USA_Focus_on_urbanization"
+		}
+	}
+	focus = {
+		id = USA_Create_the_department_of_agriculture
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Cant_forget_the_farmers
+		}
+		x = -70
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Create_the_department_of_agriculture"
+		}
+	}
+	focus = {
+		id = USA_Alleviating_working_class_poverty
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Focus_on_urbanization
+		}
+		x = -60
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Alleviating_working_class_poverty"
+		}
+	}
+	focus = {
+		id = USA_Equal_pay_act
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = { focus = USA_Create_the_department_of_agriculture focus = USA_Alleviating_working_class_poverty }
+		x = -65
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Equal_pay_act"
+		}
+	}
+	focus = {
+		id = USA_Affordable_housing_act
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = { focus = USA_Create_the_department_of_agriculture focus = USA_Alleviating_working_class_poverty }
+		x = -75
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: USA_Affordable_housing_act"
+		}
+	}
+	focus = {
+		id = USA_Develop_rural_utility_services
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Focus_on_urbanization
+		}
+		x = -70
+		y = -100
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Develop_rural_utility_services"
+		}
+	}
+	focus = {
+		id = USA_Negociate_with_the_teamster_unions
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Alleviating_working_class_poverty
+		}
+		x = -60
+		y = -100
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Negociate_with_the_teamster_unions"
+		}
+	}
+	focus = {
+		id = USA_The_austrian_school_at_its_finest
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = { focus = USA_Develop_rural_utility_services focus = USA_Equal_pay_act focus = USA_Negociate_with_the_teamster_unions }
+		x = -60
+		y = -110
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_The_austrian_school_at_its_finest"
+		}
+	}
 
+
+	focus = {
+		id = USA_National_infrastructure_act
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_American_century
+		}
+		x = -40
+		y = -70
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_National_infrastructure_act"
+		}
+	}
+	focus = {
+		id = USA_Reinvigorate_us_industry
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_National_infrastructure_act
+		}
+		x = -50
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Reinvigorate_us_industry"
+		}
+	}
+	focus = {
+		id = USA_The_interstate_highway_system
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_National_infrastructure_act
+		}
+		x = -30
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_The_interstate_highway_system"
+		}
+	}
+	focus = {
+		id = USA_Revitalize_the_rust_belt
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Reinvigorate_us_industry
+		}
+		x = -50
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Revitalize_the_rust_belt"
+		}
+	}
+	focus = {
+		id = USA_Codify_national_road_standards
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_The_interstate_highway_system
+		}
+		x = -30
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Codify_national_road_standards"
+		}
+	}
+	focus = {
+		id = USA_An_america_to_be_proud_of
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Reinvigorate_us_industry
+		}
+		prerequisite = {
+			focus = USA_Codify_national_road_standards
+		}
+		x = -40
+		y = -100
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_An_america_to_be_proud_of"
+		}
+	}
 }

@@ -61,7 +61,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			ZIM = { declare_war_on = { target = MZB type = annex_everything } }
+			SAF = { declare_war_on = { target = ANG type = annex_everything } }
 		}
 	}
 
