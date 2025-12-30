@@ -21,12 +21,15 @@ focus_tree = {
 		id = USA_USA_2000
 		icon = USA_USA_2000
 		cost = 2
-		x = 40
-		y = 0
+		x = 100
+		y = 100
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_USA_2000"
 		}
 	}
+	################
+	## Top Branch ##
+	################
 	focus = {
 		id = USA_Tying_up_loose_ends
 		icon = USA_USA_2000
@@ -137,7 +140,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_Status_of_the_military"
 		}
 	}
+	##################
 	### Left Branch ##
+	##################
 	focus = {
 		id = USA_American_century
 		icon = USA_USA_2000
@@ -349,6 +354,223 @@ focus_tree = {
 		y = -100
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_An_america_to_be_proud_of"
+		}
+	}
+	####################
+	### Middle Branch ##
+	####################
+	focus = {
+		id = USA_DC_business
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_End_the_y2k_scare
+		}
+		x = 0
+		y = -40
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_DC_business"
+		}
+	}
+	focus = {
+		id = USA_My_magnum_opus
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_DC_business
+		}
+		x = 0
+		y = -50
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_My_magnum_opus"
+		}
+	}
+
+	focus = {
+		id = USA_Wrangling_congress_one_more_time
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_My_magnum_opus
+		}
+		mutually_exclusive = {
+			focus = USA_Negociate_state_support
+		}
+		x = -10
+		y = -60
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Wrangling_congress_one_more_time"
+		}
+	}
+	focus = {
+		id = USA_Negociate_state_support
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_My_magnum_opus
+		}
+		mutually_exclusive = {
+			focus = USA_Wrangling_congress_one_more_time
+		}
+		x = 10
+		y = -60
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Negociate_state_support"
+		}
+	}
+	focus = {
+		id = USA_Getting_our_hands_slightly_dirty
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Wrangling_congress_one_more_time
+		}
+		x = -10
+		y = -70
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Getting_our_hands_slightly_dirty"
+		}
+	}
+	focus = {
+		id = USA_Talk_it_out_with_the_regionalists
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Negociate_state_support
+			focus = USA_Wrangling_congress_one_more_time
+		}
+		x = 0
+		y = -70
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Talk_it_out_with_the_regionalists"
+		}
+	}
+	focus = {
+		id = USA_Playing_with_the_big_boys
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Negociate_state_support
+		}
+		x = 10
+		y = -70
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Playing_with_the_big_boys"
+		}
+	}
+	focus = {
+		id = USA_Consult_our_friends_in_big_business
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Getting_our_hands_slightly_dirty
+		}
+		x = -10
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Consult_our_friends_in_big_business"
+		}
+	}
+	focus = {
+		id = USA_Collins_got_some_good_ideas
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Talk_it_out_with_the_regionalists
+		}
+		x = 0
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Collins_got_some_good_ideas"
+		}
+	}
+	focus = {
+		id = USA_Negociate_with_the_smaller_states
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Playing_with_the_big_boys
+		}
+		x = 10
+		y = -80
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Negociate_with_the_smaller_states"
+		}
+	}
+	focus = {
+		id = USA_Call_in_the_attack_dogs
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Consult_our_friends_in_big_business
+		}
+		mutually_exclusive = {
+			focus = USA_Lets_not_do_that
+		}
+		x = -20
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Call_in_the_attack_dogs"
+		}
+	}
+	focus = {
+		id = USA_Lets_not_do_that
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Consult_our_friends_in_big_business
+		}
+		mutually_exclusive = {
+			focus = USA_Call_in_the_attack_dogs
+		}
+		x = -10
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Lets_not_do_that"
+		}
+	}
+	focus = {
+		id = USA_Calm_down_the_south
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Collins_got_some_good_ideas
+		}
+		x = 0
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_Calm_down_the_south"
+		}
+	}
+	focus = {
+		id = USA_End_the_states_rights_argument
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Negociate_with_the_smaller_states
+		}
+		x = 10
+		y = -90
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_End_the_states_rights_argument"
+		}
+	}
+	focus = {
+		id = USA_A_more_perfect_union
+		icon = USA_USA_2000
+		cost = 2
+		prerequisite = {
+			focus = USA_Lets_not_do_that
+			focus = USA_Call_in_the_attack_dogs
+		}
+		prerequisite = {
+			focus = USA_Calm_down_the_south
+			focus = USA_End_the_states_rights_argument
+		}
+		x = 0
+		y = -100
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus USA_A_more_perfect_union"
 		}
 	}
 }
